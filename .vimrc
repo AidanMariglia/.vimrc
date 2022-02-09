@@ -1,6 +1,5 @@
 set number
 syntax on
-colorscheme slate
 set tabstop=4 
 set autoindent
 set incsearch
@@ -9,3 +8,13 @@ set laststatus=2
 set noerrorbells
 set title
 set background=dark
+set termguicolors
+colorscheme gruvbox
+
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+
+Plug 'morhetz/gruvbox'
+
+call plug#end()
