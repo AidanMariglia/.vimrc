@@ -11,13 +11,3 @@ set background=dark
 set termguicolors
 colorscheme gruvbox
 
-call plug#begin()
-
-Plug 'vim-airline/vim-airline'
-
-Plug 'morhetz/gruvbox'
-
-Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
-
-
-call plug#end()
